@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Vajro Shopping</string>
+    <string name="services">Services</string>
+    <string name="cart">Cart</string>
+    <string name="no_result_found">No patients found</string>
+    <string name="add_service_to_cart">Add service to cart</string>
+    <string name="please_select_the_employee_s_for_this_service_you_can_select_multiple_employees">Please select the employee(s) for this service. You can select multiple employees.</string>
+    <string name="added_service_to_cart">Added service to cart</string>
+    <string name="cart_is_empty">Cart is empty</string>
+    <string name="no_service_found">No service found</string>
+    <string name="products">Products</string>
+    <string name="details">Details</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="back">back</string>
+    <string name="empty_cart">Empty cart</string>
+    <string name="items">ITEMS</string>
+    <string name="total">Total</string>
+    <string name="logo">logo</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/categoryFragment">
+
+
+    <action
+        android:id="@+id/actionToCategory"
+        app:destination="@id/categoryFragment"
+        app:popUpToInclusive="false" />
+
+    <action
+        android:id="@+id/actionToCart"
+        app:destination="@id/cartFragment" />
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.vajro.shopping.ui.product.ProductFragment"
+        android:label="fragment_feedback"
+        tools:layout="@layout/fragment_product">
+        <action
+            android:id="@+id/action_categoryFragment_to_employeesFragment"
+            app:destination="@id/employeesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/employeesFragment"
+        android:name="com.vajro.shopping.ui.employees.ProductDetailFragment"
+        android:label="fragment_feedback"
+        tools:layout="@layout/fragment_product_detail" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.vajro.shopping.ui.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+
+
+</navigation>
